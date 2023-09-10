@@ -8,8 +8,7 @@
  */
 int main(void)
 {
-	std::string str;
-	str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
-	fprintf(stderr, str);
+	char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+    	write(STDERR_FILENO, str, 52);
 	return (1);
 }
