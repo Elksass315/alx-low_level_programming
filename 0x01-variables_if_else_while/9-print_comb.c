@@ -17,6 +17,8 @@ int main(void)
 	for (; c <= '9'; c++)
 	{
 		putchar((char)c);
+		if ((char)c == '9')
+			break;
 		putchar(',');
 		putchar(' ');
 	}
