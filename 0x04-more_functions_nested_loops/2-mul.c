@@ -9,7 +9,7 @@
  *	@b: 2nd num.
  *
  * Return:
- *	multiplies of the 2 num. 
+ *	multiplies of the 2 num.
  */
 int mul(int a, int b)
 {
