@@ -6,24 +6,29 @@
  */
 void more_numbers(void)
 {
-	char i = '0', c = '0';
-	int b = 0;
+	int i = 0;
 
-	for (; c <= '4';)
+	for (; i < 11; i++)
 	{
-		_putchar(i);
-		if (b == 1)
+		char i = '0', c = '0';
+		int b = 0;
+
+		for (; c <= '4';)
 		{
-			_putchar(c);
-			c++;
+			_putchar(i);
+			if (b == 1)
+			{
+				_putchar(c);
+				c++;
+			}
+			else
+				i++;
+			if (i == ('9' + 1))
+			{
+				i = '1';
+				b = 1;
+			}
 		}
-		else
-			i++;
-		if (i == ('9' + 1))
-		{
-			i = '1';
-			b = 1;
-		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
