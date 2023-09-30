@@ -9,7 +9,7 @@
  *	@size: array member size
  *	@nmemb: num of array members.
  * Return: pointer to the new array
- * 	NULL if fails
+ *	NULL if fails
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {

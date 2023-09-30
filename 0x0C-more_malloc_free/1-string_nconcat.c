@@ -10,7 +10,7 @@
  *	@s2: 2nd string.
  *	@n: using the first n byte of the s2.
  * Return: pointer to the new string
- * 	NULL if fails
+ *	NULL if fails
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
